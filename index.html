@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Create a Responsive table in bootstrap. Example: three column layouts as col-md-4 each. -->
+
+<head>
+
+    <title> Responsive table in Bootstrap  </title> <!-- Title of the page -->
+    
+    <link rel="stylesheet" href="main.css"> <!-- Linking CSS file -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Linking Bootstrap CSS file -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- Linking jQuery javascript file -->
+ 
+    <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- Linking Bootstrap javascript file -->
+   
+    
+</head>
+
+<body>
+ 
+    <h2>  Responsive table in Bootstrap </h2>  <!-- Heading of this page -->
+    <hr>
+    <br> <br>
+    <div class="table-responsive col-md-10 col-lg-10 col-sm-10"> <!-- Table container class and its width for different viewport sizes -->
+
+        <table class="table table-bordered table-striped ">  <!-- To specify the look and feel of the table -->
+            
+            <thead>
+                <!-- Table Header -->
+                <tr >
+                    <!-- The classes here specify the width of the columns of the table for different viewport sizes -->
+                    <th class ="col-md-1 col-sm-1 col-lg-1">Row </th> 
+                    <th class ="col-md-2 col-sm-2 col-lg-2">First Name </th>
+                    <th class ="col-md-2 col-sm-2 col-lg-2">Last Name </th>
+                    <th class ="col-md-3 col-sm-3 col-lg-3">Email </th>
+                    <th class ="col-md-4 col-sm-4 col-lg-4">Biography </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- Table Data -->
+                <tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td>Carter</td>
+                    <td>johncarter@mail.com</td>
+                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Peter</td>
+                    <td>Parker</td>
+                    <td>peterparker@mail.com</td>
+                    <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>John</td>
+                    <td>Rambo</td>
+                    <td>johnrambo@mail.com</td>
+                    <td>Contrary to popular belief, Lorem Ipsum is not simply random text.  </td>            
+                </tr>
+            </tbody>
+
+        </table>
+            
+        
+    </div>
+</body>
+
+ 
+ 
+</html>
